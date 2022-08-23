@@ -9,5 +9,10 @@ class MaxNumbers:
         self.numbers = args
 
     def find_maximum_number(self):
-        pass
+        num1 = 0
+        for i in range(len(self)):
+            if self[i] > num1:
+                num1 = self[i]
+        return num1
+
 
