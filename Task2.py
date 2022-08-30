@@ -14,5 +14,3 @@ class IdenticalNumbers:
             if self.first_list[i] in self.second_list:
                 a.append(self.first_list[i])
         return a
-
-
