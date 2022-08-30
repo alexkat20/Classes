@@ -10,4 +10,3 @@ class TestIdenticalNumbers(unittest.TestCase):
         numbers = IdenticalNumbers(test_first_list, test_second_list)
 
         self.assertEqual(numbers.get_identical_numbers(), [4, 5, 6])
-
