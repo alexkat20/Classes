@@ -36,10 +36,10 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test identical numbers
       run: |
-        unittest tests/test_identical_numbers.py
+        pytest tests/test_identical_numbers.py
     - name: Test maximum number
       run: |
-        unittest tests/test_maximum_number.py
+        pytest tests/test_maximum_number.py
     - name: Test rectangle and circle
       run: |
-        unittest tests/test_rectangle_and_circle.py
+        pytest tests/test_rectangle_and_circle.py
