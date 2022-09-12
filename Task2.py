@@ -10,5 +10,3 @@ class IdenticalNumbers:
 
     def get_identical_numbers(self):
         pass
-
-

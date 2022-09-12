@@ -14,5 +14,3 @@ class MaxNumbers:
             if self.numbers[i] > num1:
                 num1 = self.numbers[i]
         return num1
-
-
