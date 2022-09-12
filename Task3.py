@@ -8,10 +8,15 @@ class Rectangle:
         self.first_side, self.second_side = first_side, second_side
 
     def calculate_perimeter(self):
-        pass
+        perimeter = 2 * (self.first_side+self.second_side)
+        return perimeter
+
+
 
     def calculate_square(self):
-        pass
+        area = (self.first_side) * (self.second_side)
+        return area
+
 
 
 class Circle:
@@ -19,7 +24,9 @@ class Circle:
         self.radius = radius
 
     def calculate_length(self):
-        pass
+        length =(self.radius * 3.14) * 2
+        return length
 
     def calculate_square(self):
-        pass
+        area = (3.14) * (self.radius)**2
+        return area
