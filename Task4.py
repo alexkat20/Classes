@@ -8,4 +8,13 @@ class Palindrome:
         self.number = number
 
     def check_for_palindrome(self):
-        pass
+        return str(self.number) == str(self.number)[::-1]
+
+
+
+
+
+
+
+
+

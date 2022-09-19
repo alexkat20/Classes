@@ -8,4 +8,4 @@ class LongestString:
         self.list_with_strings = list_with_strings
 
     def get_the_longest_string(self):
-        pass
+        return  max(self.list_with_strings, key=len)
