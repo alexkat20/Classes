@@ -43,3 +43,9 @@ jobs:
     - name: Test rectangle and circle
       run: |
         pytest tests/test_rectangle_and_circle.py
+    - name: Test palindrome
+      run: |
+        pytest tests/test_palindrome.py
+    - name: Test longest string
+      run: |
+        pytest tests/test_longest_string.py
