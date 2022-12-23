@@ -9,4 +9,12 @@ class IdenticalNumbers:
         self.second_list = second_list
 
     def get_identical_numbers(self):
-        pass
+        identical_numbers = []
+        for n in self.first_list:
+            if n in self.second_list:
+                identical_numbers.append(n)
+        return identical_numbers
+
+
+
+
