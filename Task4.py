@@ -1,5 +1,6 @@
 """
 Write a Python program to check whether the given strings are palindromes or not. Return True, False
+
 """
 
 
